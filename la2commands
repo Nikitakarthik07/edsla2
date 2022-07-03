@@ -1,0 +1,68 @@
+hist(data5)
+hist(data5.mat)
+hist(data5$pretest)
+hist(data5$posttest)
+boxplot(data5$posttest)
+boxplot(data5$posttest~data5$pretest)
+stem(data5$posttest)
+plot(data5$posttest~data5$pretest)
+abline(lm(data5$posttest~data5$pretest))
+lines(lowess(data5$posttest,data5$pretest))
+plot(data5)
+abline(lm(data5$posttest~data5$pretest))
+abline(lm(data5$posttest~data5$pretest))
+lines(lowess(data5$posttest,data5$pretest))
+abline(lm(data5$posttest~data5$pretest))
+ggplot(data1,aes(x=school,y=posttest)) +
+geom_point()
+ggplot(data1,aes(x=n_student,y=posttest)) +
+geom_point()
+ggplot(data1,aes(x=pretest,y=posttest)) +
+geom_point()
+ggplot(data1,aes(x=pretest,y=posttest)) +
+geom_point()
+ggplot(data1,aes(x=pretest,y=posttest)) +
+geom_point()
+library(ggplot2)
+ggplot(data1,aes(x=pretest,y=posttest)) +
+geom_point()
+ggplot(data1,aes(x=pretest,y=posttest)) +
+geom_point()
+data1<-read.csv(file.choose(),header=TRUE)
+data1<-read.csv(file.choose(),header=TRUE)
+data1<-read.csv(file.choose(),header=TRUE)
+library(ggplot2)
+ggplot(data1,aes(x=pretest,y=posttest)) +
+geom_point()
+ggplot(data1,aes(x=n_student,y=school)) +
+geom_point()
+ggplot(data1,aes(x=gender,y=school)) +
+geom_point()
+ggplot(data1,aes(x=pretest,y=posttest)) +
+geom_point()
+data1<-read.csv(file.choose())
+ggplot(data1,aes(x=pretest,y=posttest)) +
+geom_point()
+install.packages("ggplot2")
+library(ggplot2)
+install.packages("ggplot2")
+install.packages("ggplot2")
+library(ggplot2)
+ggplot(data1,aes(x=pretest,y=posttest)) +
+geom_point()
+ggplot(data1,aes(x=pretest,y=posttest)) +
+geom_point()
+library(ggplot2)
+ggplot(data1,aes(x=pretest,y=posttest)) +
+geom_point()
+ggplot(data1,aes(x=pretest,y=posttest)) +
+geom_point()
+library(ggplot)
+library(ggplot2)
+data1<-read.csv("C:\\Users\\AK47\\Downloads\\test_scores.csv")
+ggplot(data1,aes(x=pretest,y=posttest)) +
+geom_line()+ geom_p
+ggplot(data1,aes(x=pretest,y=posttest)) +
+geom_line()+ geom_point()
+history()
+savehistory("~/R studio/commandsla2.Rhistory")
